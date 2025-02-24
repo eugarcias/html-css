@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+<style>
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #000000;
+    color: #ffffff    ;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: white;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
+article {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 0;
+}
+footer {
+    background-color: white;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
+main {
+    display: flex;
+    padding: 10px 0;
+}
+
+article > aside { background-color: rgb(57, 247, 247);
+color:black;}
+
+nav {background-color: #000000;
+color:rgb(255, 255, 255);
+padding: 10px;}
+
+nav > a {text-decoration: none
+        color:white;
+        font-weight:bold;
+        margin-right: 30px;
+}
+nav > a:hover {text-decoration: underline;
+               color:yellow}
+
+
+
+
+
+</style>
+</head>
+<body>
+<header>
+<h1>Meu Site</h1>
+<nav>
+        <a href="#"> Link </a>
+        <a href="#"> Link </a>
+        <a href="#"> Link </a>
+        <a href="#"> Link </a>
+</nav>
+
+</header>
+<main>
+
+ <section id="assuntos"></section>
+ <section id="noticias"></section>
+ <article>
+    <h1>Noticia Sobre o Brasil</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, dignissimos distinctio. Temporibus culpa iure mollitia inventore nulla, reiciendis illum nobis facere, dicta minus laudantium tempore unde placeat iste perferendis sapiente?</p>
+<aside>
+    <p>Artigos escrito por Mauricio Garcia</p>
+</aside>
+
+
+ </article>
+</main>
+<footer>
+<p>Desenvolvido por Maurício Garcia</p>
+</footer>
+</body>
+</html>

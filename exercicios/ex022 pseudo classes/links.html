@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+
+/* 
+   SELETORES PERSONALIZADOS
+#  = id
+. = class
+: = pseudo-classe
+::= pseudo-elemento
+> = Children
+
+
+*/
+
+
+body {font-family: 'Times New Roman', Times, serif;}
+
+a { color: black;
+text-decoration: none;
+font-weight: bold;}
+
+a:visited {color: red;}
+
+a:hover {color : black;
+text-decoration: underline;}
+
+a:active {color: darkred;}
+
+a::before {content: "☍" ;color: rgb(94, 255, 0);
+text-decoration: none;
+font-weight: normal;}
+
+a::after {content: " ☍";
+color: rgb(0, 255, 13);
+text-decoration: none;
+font-weight: normal;}
+.especial {background-color: rgb(0, 0, 0);}
+.especial::after {content:"☁";}
+.especial::before {content:"☁";}
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+<li><a href="https://www.linkedin.com/in/maur%C3%ADcio-garcia-3457b0223/" target="_blank" >Meu Linkdin</a></li>
+
+<li><a href="https://www.youtube.com/@garciiax7" target="_blank">Canal do Youtube</a></li>
+
+
+<li><a href="https://www.instagram.com/garciiax7?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Meu Instagram</a></li>
+ 
+<li><a href="https://www.facebook.com/profile.php?id=100091289905096&locale=pt_BR" target="_blank" class="especial">Meu Facebook</a></li>
+
+    </ul>
+</body>
+</html>
