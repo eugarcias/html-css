@@ -1,24 +1,37 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+:root {
+    --fonte1: 'Passion One', serif;
+    --fonte2: 'Sriracha', serif;
+}
+
 * {
     margin: 0px;
     padding: 0px;
 }
 body {
     min-height:100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     
    
 }
 header {
+    font-family: var(--fonte1);
     background-color: black;
     color: white;
     text-align: center;
 }
 header > h1 {
     padding-top: 50px;
+    font-size: 10vw;
     font-variant: small-caps;
 }
 header > p {
+    font-size: 2em;
     padding-bottom: 50px;
 
 }
@@ -26,17 +39,19 @@ header > p {
 header a, footer a {
     color: white;
     text-decoration: none;
-    font-weight: border
+    font-weight: bold
 }
 
 header a:hover, footer a:hover {
     text-decoration: underline;
 }
 section {
+    font-family: var(--fonte2);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 20px;
+    font-size: 3vw ;
 }
 
 section.normal {
@@ -50,8 +65,23 @@ section.imagem {
 }
 section.imagem > p {
     background-color: rgba(158, 151, 151, 0.267);
-    width: 250px;
-    padding-left: 10px
+    display: inline-block;
+    padding: 15px;
+}
+
+section#flor {
+    background-image: url(css/imagens/background001.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#folhas {
+    background-image: url(css/imagens/background002.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 footer {
