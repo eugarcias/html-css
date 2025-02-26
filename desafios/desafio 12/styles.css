@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+    min-height:100vh;
+    display: block;
+    margin: 0px;
+   
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    
+    
+}
+main {
+
+}
+
+section.img01 {
+    background-image: url(css/imagens/background001.jpg);
+    background-position: right center;
+}
