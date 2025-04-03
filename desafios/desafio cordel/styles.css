@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Playfair+Display&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body {
+    font-family: "Playfair Display", serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: "PLayfair Display, serif";
+    font-weight:  lighter;
+    padding-top: 20px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-size: border;
+
+}
+
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 20px;
+}
+
+section.imagem {
+    background-color: black;
+    color: white;
+}
+
+section.imagem > p {
+    background-color: rgba(240, 255, 255, 0.37);
+    width: 200px;
+    padding-left: 10px;
+}
+section#folhas > p {
+    background-color: rgba(0, 0, 0, 0.274);
+}
+section#flor {
+    background-image: url(css/imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#folhas {
+    background-image: url(css/imagens/background002.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

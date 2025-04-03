@@ -1,0 +1,156 @@
+@charset "UTF-8";
+@media screen and (max-width: 800px) {
+    
+}
+@font-face {
+    font-family: 'Outfit-VariableFont' ;
+    src: url(fonts/outfit/Outfit-VariableFont_wght.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'YoungSerif-Regular' ;
+    src: url(fonts/outfit/Outfit-VariableFont_wght.ttf) format(truetype);
+}
+*:root {
+--fonte-titulo: 'YoungSerif-Regular', Arial, Helvetica;
+--fonte-paragrafo: 'Outfit-VariableFont', Arial, ;
+--White: hsl(0, 0%, 100%)
+
+--Stone100: hsl(30, 54%, 90%)
+--Stone150: hsl(30, 18%, 87%)
+--Stone600: hsl(30, 10%, 34%)
+--Stone900: hsl(24, 5%, 18%)
+
+--Brown800: hsl(14, 45%, 36%)
+
+--Rose 800: hsl(332, 51%, 32%)
+--Rose 50: hsl(330, 100%, 98%)
+}
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+
+body {
+    background-color:#f3e6d8;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 220vh;
+    padding: 30px;
+    font-family:'Outfit-VariableFont', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+   
+    
+}
+main {
+    background-color: white;
+    
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 48px;
+    border-radius: 24px;
+    margin-bottom: 48px;
+}
+img {
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+h1{
+font-family: var(--fonte-titulo);
+ margin-top: 16px;
+ margin-bottom: 16px;
+}
+
+h2, h3 {
+    margin-top: 16px;
+  
+}
+
+p{
+    font-family:var(--fonte-paragrafo);
+    font-size: 16px;
+    
+}
+#Time {
+    background-color: #88068a1a;
+    border-radius: 24px;
+    margin-top: 10px;
+    padding: 1.6rem;
+}
+#Time h3 {
+  
+    padding: 4px;
+    color: #88068a;
+}
+
+#Time p {
+    
+    padding: 8px;
+}
+
+#Ingredients {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+#Ingredients h1 {
+    padding-bottom: 8px;
+    font-size: 28px;
+    color: saddlebrown;
+}
+
+#Ingredients li {
+    padding: 8px;
+    margin-right: 16px;
+}
+
+#Instructions {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+#Instructions h1 {
+    color: saddlebrown;
+    font-size:28px;
+    padding-bottom: 8px;
+}
+    
+#Instructions li {
+    padding: 8px;
+}
+
+#Nutrition {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+#Nutrition h1 {
+    font-size: 28px;
+    padding: 8px;
+    color: saddlebrown;
+}
+
+#Nutrition p {
+    padding-bottom: 20px;
+}
+table {
+    width: 350px;
+}
+
+td {
+    padding:10px;
+}
+
+#color {
+    color: saddlebrown;
+}
